@@ -1,3 +1,20 @@
+2021.8.28 by Qijie:
+1、安装插件
+#npm install electron --save-dev
+#npm install electron-packager --save-dev
+2、安装依赖
+#npm install
+3、安装依赖
+#cnpm install
+请运行此两条命令确认安装过程中没有报错，若有报错，请运行以下命令。
+4、将electron下载地址指向taobao镜像
+#npm config set electron_mirror https://npm.taobao.org/mirrors/electron/
+5、将项目用.exe运行起来
+#npm start
+6、打包项目，默认路径已在package.json中的scripts中配置完成，输出在项目路径下的/out文件夹内
+#npm run package
+===================================================================================================
+
 # electron-quick-start
 
 **Clone and run for a quick way to see Electron in action.**
